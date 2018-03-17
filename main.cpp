@@ -1,3 +1,7 @@
+// http://nullprogram.com/blog/2017/11/03/
+// https://github.com/skeeto/sort-circle/blob/master/sort.c
+// https://eonstrife.wordpress.com/2007/06/02/taking-a-screenshot-from-an-opengl-application/
+
 #include <iostream>
 #include <GL\freeglut.h>
 
