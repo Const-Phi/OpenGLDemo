@@ -67,4 +67,5 @@ void Read()
 	glReadBuffer(GL_BACK);
 	GLvoid *imageData = malloc(WIDTH * HEIGHT * (BIT_R + BIT_G + BIT_B + BIT_A)); //Allocate memory for storing the image
 	glReadPixels(0, 0, WIDTH, HEIGHT, GL_RGBA, GL_UNSIGNED_BYTE, imageData);
+	free(imageData);
 }
